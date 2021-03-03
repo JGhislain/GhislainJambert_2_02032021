@@ -845,9 +845,9 @@ strong {
     #logo {
         background-image: url("Reservia@3x.png");
         background-attachment: fixed;
-        position: absolute;
-        top: 20px;
-        left: 50px;
+        position: relative;
+        bottom: 75px;
+        left: 10px;
         background-repeat: no-repeat;
         height: 40px;
     }
@@ -921,6 +921,7 @@ strong {
     #bulle a {
         display: inline-block;
         position: absolute;
+        width: 320px;
     }
     #corps {
         height: 2000px;
