@@ -10,7 +10,7 @@
     font-weight: bold;
     font-style: normal;
 }
-html {
+body {
     font-size: 15px;
     font-family: 'Raleway';
     font-weight: normal;
@@ -776,10 +776,9 @@ strong {
     text-decoration: underline;
     color: #0065FC;
 }
-@media all and (max-device-width: 1024px) {
-    html {
+@media screen and (max-width: 1024px) {
+    body {
         width: 375px;
-        margin: auto;
     }
     #tete {
         display: flex;
@@ -792,6 +791,7 @@ strong {
     }
     .heberg {
         width: 49%;
+        top: 15px;
         text-align: center;
         padding-top: 20px;
         margin: 0;
@@ -799,10 +799,10 @@ strong {
         color: black;
         border-bottom: solid 1px #F2F2F2;
         order: 3;
-        left: 20px;
     }
     .activites {
         width: 49%;
+        top: 15px;
         text-align: center;
         padding-top: 20px;
         margin: 0;
@@ -810,7 +810,6 @@ strong {
         color: black;
         border-bottom: solid 1px #F2F2F2;
         order: 2;
-        align-self: flex-start;
     }
     .inscription {
         padding-top: 20px;
@@ -840,26 +839,35 @@ strong {
         color: #0065FC;
         border-top: transparent;
     }
+    header {
+        margin: auto;
+    }
     #logo {
         background-image: url("Reservia@3x.png");
         background-attachment: fixed;
         position: absolute;
-        top: 30px;
+        top: 20px;
+        left: 50px;
         background-repeat: no-repeat;
         height: 40px;
     }
     h1 {
-        margin-top: 35px;
+        margin-top: 50px;
         margin-bottom: 20px;
+        padding-left: 10px;
         font-weight: bold;
-        font-size: 20px;
+        font-size: 25px;
     }
     .soustitre {
         margin-top: 0px;
         margin-bottom: 30px;
+        padding-left: 10px;
     }
     #bouton {
         display: none;
+    }
+    form {
+        margin-left: 10px;
     }
     .xlhidden {
         display: flex !important;
@@ -873,7 +881,12 @@ strong {
         width: 40px;
     }
     fieldset {
-        padding: 0 0 0 10px;
+        margin: auto;
+        padding: 0;
+    }
+    .filter-bloc {
+        margin-left: auto;
+        margin-right: auto;
     }
     #filter {
         display: flex;
@@ -882,7 +895,7 @@ strong {
         font-size: 1rem;
         font-weight: bold;
         width: 350px;
-        margin-top: 30px;
+        margin: auto;
     }
     .filtres {
         padding: 0;
@@ -903,7 +916,11 @@ strong {
     }
     #bulle {
         width: 330px;
-        margin-top: 30px;
+        padding-left: 10px;
+    }
+    #bulle a {
+        display: inline-block;
+        position: absolute;
     }
     #corps {
         height: 2000px;
@@ -911,7 +928,7 @@ strong {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin: 0;
+        margin: auto;
     }
     #inf {
         margin-right: 10px;
@@ -923,7 +940,7 @@ strong {
         flex-flow: column wrap;
         justify-content: space-around;
         align-content: center;
-        margin: 0;
+        margin: auto;
         background-color: transparent;
     }
     #heberg-body {
@@ -934,8 +951,8 @@ strong {
     .h-marseille h2 {
         display: inline-block;
         height: auto;
-        width: 100%;
-        font-size: 20px;
+        width: auto;
+        font-size: 25px;
         font-weight: bold;
         margin: 40px 0 20px 20px;
     }
@@ -1173,15 +1190,15 @@ strong {
     #popular {
         width: 375px;
         border-radius: 0;
-        margin: auto;
+        margin: 50px auto auto auto;
     }
     .top {
         height: 90px;
     }
     .top h3 {
-        font-size: 20px;
+        font-size: 25px;
         width: 305px;
-        margin: 40px 0 0 20px;
+        margin: 40px 0 0 10px;
     }
     .top i {
         margin-top: 45px;
@@ -1211,7 +1228,7 @@ strong {
     #activity h3 {
         display: inline-block;
         font-weight: bold;
-        margin: 70px 0 30px 0;
+        margin: 100px 0 30px 0;
     }
     .v-port {
         height: 190px;
