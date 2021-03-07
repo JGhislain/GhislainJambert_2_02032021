@@ -68,10 +68,11 @@ header {
     background-image: url("Reservia@3x.png");
     background-attachment: fixed;
     background-repeat: no-repeat;
+    object-fit: contain;
     height: 40px;
 }
 h1 {
-    font-size: 25px;
+    font-size: 22px;
     margin-top: 45px;
     margin-bottom: 5px;
     font-weight: bold;
@@ -90,38 +91,43 @@ form {
     justify-content: flex-start;
     font-size: 1rem;
     font-weight: bold;
-    height: 30px;
+    height: 50px;
 }
 #search {
+    width: 230px;
     border-color: #F2F2F2;
     border-width: 1px;
     border-style: solid;
 }
 ::placeholder {
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 10px;
     color: black;
     opacity: 100%;
 }
 .icone {
-    background-color:#F2F2F2;
-    font-size: 12px;
-    padding: 9px 6px 0 7px;
-    width: auto;
-    height: auto;
+    text-align: center;
+    padding-top: 13px;
+    font-size: 20px;
+    width: 50px;
+    margin: auto;
     border-width: 0;
 }
 label {
     font-weight: normal;
     background-color: #F2F2F2;
     padding: 1px 3px 0 3px;
-    border-radius: 7px 0 0 7px;
+    border-radius: 15px 0 0 15px;
 }
 #bouton {
+    font-size: 20px;
     background-color: #0065FC;
     color: white;
-    border-radius: 0px 5px 5px 0px;
+    border-radius: 0px 15px 15px 0px;
     border-width: 0;
     margin-left: -0.5px;
-    width: 90px;
+    width: 135px;
 }
 #bouton-2 {
     display: none;
@@ -875,10 +881,10 @@ strong {
         align-items: center;
         background-color: #0065FC !important;
         color: white;
-        border-radius: 0px 5px 5px 0px;
+        border-radius: 15px 15px 15px 15px;
         border-width: 0;
-        margin-left: -0.5px;
-        width: 40px;
+        margin-left: -12px;
+        width: 50px;
     }
     fieldset {
         margin: auto;
