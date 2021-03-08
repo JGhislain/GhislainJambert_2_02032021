@@ -275,14 +275,15 @@ a {
     margin: 0;
     position: relative;
 }
-.titre-heberg {
+.h-marseille h2 {
     display: inline-block;
     height: 30px;
     width: 100%;
     font-size: 25px;
     font-weight: bold;
     margin-left: 1.5em;
-    margin-top: 25px;
+    margin-bottom: 0;
+    padding-top: 10px;
 }
 #heberg i {
     font-size: 10px;
@@ -953,7 +954,7 @@ strong {
         height: auto;
         width: 375px;
     }
-    .titre-heberg {
+    .h-marseille h2 {
         display: inline-block;
         height: auto;
         width: auto;
