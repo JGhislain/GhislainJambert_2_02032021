@@ -13,6 +13,7 @@
 body {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     font-size: 15px;
     font-family: 'Raleway';
     font-weight: normal;
@@ -782,7 +783,12 @@ strong {
     text-decoration: underline;
     color: #0065FC;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px)  {
+    body {
+        background-color: #edf2fa56;
+    }
+}
+@media screen and (max-width: 480px) {
     body {
         width: 375px;
     }
