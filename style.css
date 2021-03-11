@@ -14,42 +14,41 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    font-size: 15px;
+    font-size: 0.93rem;
     font-family: 'Raleway';
     font-weight: normal;
-    width: 1440px;
-    margin: auto;
+    margin: 0;
 }
 #tete {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
     align-items: flex-end;
-    margin-right: 45px;
+    margin-right: 2.81rem;
 }
 header {
-    margin-left: 50px;
+    margin-left: 3.12rem;
 }
 .heberg {
-    margin-right: 30px;
+    margin-right: 1.87rem;
     text-decoration: none;
     color: black;
-    padding-top: 50px;
+    padding-top: 3.12rem;
     border-top: solid 1px transparent;
 }
 .activites {
-    margin-right: 30px;
+    margin-right: 1.87rem;
     text-decoration: none;
     color: black;
-    padding-top: 50px;
+    padding-top: 3.12rem;
     border-top: solid 1px transparent;
 }
 .inscription {
-    margin-right: 10px;
+    margin-right: 0.62rem;
     text-decoration: none;
     color: #0065FC;
     font-weight: bold;
-    padding-top: 50px;
+    padding-top: 3.12rem;
     border-top: solid 1px transparent;
 }
 .heberg:hover {
@@ -72,18 +71,18 @@ header {
     height: 45px;
 }
 h1 {
-    font-size: 22px;
-    margin-top: 45px;
-    margin-bottom: 5px;
+    font-size: 1.37rem;
+    margin-top: 2.81rem;
+    margin-bottom: 0.31rem;
     font-weight: bold;
 }
 .soustitre {
-    margin-top: 0px;
+    margin-top: 0;
 }
 form {
-    margin-left: 37px;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    margin-left: 2.31rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.87rem;
 }
 #search-block {
     display: flex;
@@ -100,16 +99,16 @@ form {
     border-style: solid;
 }
 ::placeholder {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: bold;
-    padding-left: 10px;
+    padding-left: 0.62rem;
     color: black;
     opacity: 100%;
 }
 .icone {
     text-align: center;
-    padding-top: 13px;
-    font-size: 20px;
+    padding-top: 0.81rem;
+    font-size: 1.25rem;
     width: 50px;
     margin: auto;
     border-width: 0;
@@ -121,7 +120,7 @@ label {
     border-radius: 15px 0 0 15px;
 }
 #bouton {
-    font-size: 20px;
+    font-size: 1.25rem;
     background-color: #0065FC;
     color: white;
     border-radius: 0px 15px 15px 0px;
@@ -136,10 +135,10 @@ label {
     display: none !important;
 }
 fieldset {
-    border: 0px;
+    border: 0;
 }
 .filter-bloc {
-    margin-left: 50px;
+    margin-left: 3.12rem;
 }
 #filter {
     display: flex;
@@ -149,81 +148,81 @@ fieldset {
     font-weight: bold;
 }
 .filtres {
-    padding-top: 10px;
-    margin-right: 10px;
+    padding-top: 0.62rem;
+    margin-right: 0.62rem;
 }
 .eco {
     border-color: #F2F2F2;
     border-width: 2px;
     border-style: solid;
     border-radius: 30px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 11px;
-    padding: 0 10px 0 0;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+    margin-bottom: 0.68rem;
+    padding: 0 0.62rem 0 0;
 }
 #money {
     background-color:#DEEBFF;
-    padding: 10px 10px 10px 10px;
+    padding: 0.62rem 0.62rem 0.62rem 0.62rem;
     color: #0065FC;
     border-width: 0;
     border-style: solid;
     border-radius: 30px;
-    font-size: 15px;
+    font-size: 0.93rem;
 }
 .family {
     border-color: #F2F2F2;
     border-width: 2px;
     border-style: solid;
     border-radius: 30px;
-    margin-right: 20px;
-    margin-bottom: 11px;
-    padding: 0 10px 0 0;
+    margin-right: 1.25rem;
+    margin-bottom: 0.68rem;
+    padding: 0 0.62rem 0 0;
 }
 #child {
     background-color:#DEEBFF;
-    padding: 10px 10px 10px 10px;
+    padding: 0.62rem 0.62rem 0.62rem 0.62rem;
     color: #0065FC;
     border-width: 0;
     border-style: solid;
     border-radius: 30px;
-    font-size: 15px;
+    font-size: 0.93rem;
 }
 .romance {
     border-color: #F2F2F2;
     border-width: 2px;
     border-style: solid;
     border-radius: 30px;
-    margin-right: 20px;
-    margin-bottom: 11px;
-    padding: 0 10px 0 0;
+    margin-right: 1.25rem;
+    margin-bottom: 0.68rem;
+    padding: 0 0.62rem 0 0;
 }
 #heart {
     background-color:#DEEBFF;
-    padding: 10px 10px 10px 10px;
+    padding: 0.62rem 0.62rem 0.62rem 0.62rem;
     color: #0065FC;
     border-width: 0;
     border-style: solid;
     border-radius: 30px;
-    font-size: 15px;
+    font-size: 0.93rem;
 }
 .animals {
     border-color: #F2F2F2;
     border-width: 2px;
     border-style: solid;
     border-radius: 30px;
-    margin-right: 20px;
-    margin-bottom: 11px;
-    padding: 0 10px 0 0;
+    margin-right: 1.25rem;
+    margin-bottom: 0.68rem;
+    padding: 0 0.62rem 0 0;
 }
 #dog {
     background-color:#DEEBFF;
-    padding: 10px 10px 10px 10px;
+    padding: 0.62rem 0.62rem 0.62rem 0.62rem;
     color: #0065FC;
     border-width: 0;
     border-style: solid;
     border-radius: 30px;
-    font-size: 15px;
+    font-size: 0.93rem;
 }
 .connex {
     text-decoration: none;
@@ -234,45 +233,45 @@ fieldset {
     color: #0065FC;
 }
 #inf {
-    padding: 5px 10px 5px 10px;
+    padding: 0.31rem 0.62rem 0.31rem 0.62rem;
     color: #0065FC;
     border-color: #F2F2F2;
     border-width: 1px;
     border-style: solid;
     border-radius: 100%;
-    font-size: 15px;
+    font-size: 0.93rem;
 }
 #bulle {
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
 }
 #corps {
-    width: 1340px;
+    width: 93.05vw;
     height: 661px;
     display: inline-flex;
     margin: auto;
 }
 .h-marseille {
     background-color: #F2F2F2;
-    width: 880px;
+    width: 61.1vw;
     margin: 0;
     display: inline-block;
     border-radius: 1.2em;
 }
 #heberg-body {
     height: 550px;
-    width: 880px;
+    width: 61.1vw;
     display: flex;
     flex-flow: column wrap;
     justify-content: space-around;
     align-content: center;
-    margin: auto auto 35px auto;
+    margin: auto auto 2.19rem auto;
 }
 figure {
     margin: 0;
 }
 a {
-    font-size: 17px;
+    font-size: 1.06rem;
     margin: 0;
     position: relative;
 }
@@ -280,41 +279,41 @@ a {
     display: inline-block;
     height: 30px;
     width: 100%;
-    font-size: 25px;
+    font-size: 1.56rem;
     font-weight: bold;
     margin-left: 1.5em;
     margin-bottom: 0;
-    padding-top: 5px;
+    padding-top: 0.31rem;
 }
 #heberg i {
-    font-size: 10px;
+    font-size: 0.62rem;
 }
 .stars {
-    margin: 0 0 0 1.1em;
+    margin: 0 0 0 1.3em;
     color: #0065FC;
-    font-size: 11px;
-    margin-top: 5px;
+    font-size: 0.68rem;
+    margin-top: 0.31rem;
 }
 .grey {
     color: #F2F2F2;
 }
 .a-canne {
     height: 200px;
-    width: 250px;
+    width: 17.36vw;
     background-color: white;
     overflow: hidden;
     box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.04);
     border-radius: 1.2em;
-    margin-right: 30px;
+    margin-right: 1.87rem;
     margin-left: 1.9em;
 }
 .a-canne img {
     height: 115px;
-    width: 240px;
-    top: 5px;
-    left: 5px;
-    bottom: 10px;
-    margin-bottom: 10px;
+    width: 16.67vw;
+    top: 0.31rem;
+    left: 0.31rem;
+    bottom: 0.62rem;
+    margin-bottom: 0.62rem;
     object-fit: cover;
     position: relative;
     border-top-left-radius: 1.2em;
@@ -323,34 +322,34 @@ a {
 .a-canne p {
     margin: 0 0 0 1.1em;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 0.87rem;
     color: black;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 0.31rem;
+    padding-bottom: 0.31rem;
 }
 .a-canne span {
     margin: 0 0 0 1.1em;
-    font-size: 14px;
+    font-size: 0.93rem;
     font-weight: bold;
     color: black;
 }
 .h-mer {
     height: 200px;
-    width: 250px;
+    width: 17.36vw;
     background-color: white;
     overflow: hidden;
     box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.04);
     border-radius: 1.2em;
-    margin-right: 30px;
+    margin-right: 1.87rem;
     margin-left: 1.9em;
 }
 .h-mer img {
     height: 115px;
-    width: 240px;
-    top: 5px;
-    left: 5px;
-    bottom: 10px;
-    margin-bottom: 10px;
+    width: 16.67vw;
+    top: 0.31rem;
+    left: 0.31rem;
+    bottom: 0.62rem;
+    margin-bottom: 0.62rem;
     object-fit: cover;
     position: relative;
     border-top-left-radius: 1.2em;
@@ -359,33 +358,33 @@ a {
 .h-mer p {
     margin: 0 0 0 1.1em;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 0.87rem;
     color: black;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 0.31rem;
+    padding-bottom: 0.31rem;
 }
 .h-mer span {
     margin: 0 0 0 1.1em;
-    font-size: 14px;
+    font-size: 0.93rem;
     font-weight: bold;
     color: black;
 }
 .h-port {
     height: 200px;
-    width: 250px;
+    width: 17.36vw;
     background-color: white;
     overflow: hidden;
     box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.04);
     border-radius: 1.2em;
-    margin-right: 30px;
+    margin-right: 1.87rem;
 }
 .h-port img {
     height: 115px;
-    width: 240px;
-    top: 5px;
-    left: 5px;
-    bottom: 10px;
-    margin-bottom: 10px;
+    width: 16.67vw;
+    top: 0.31rem;
+    left: 0.31rem;
+    bottom: 0.62rem;
+    margin-bottom: 0.62rem;
     object-fit: cover;
     position: relative;
     border-top-left-radius: 1.2em;
@@ -394,33 +393,33 @@ a {
 .h-port p {
     margin: 0 0 0 1.1em;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 0.87rem;
     color: black;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 0.31rem;
+    padding-bottom: 0.31rem;
 }
 .h-port span {
     margin: 0 0 0 1.1em;
-    font-size: 14px;
+    font-size: 0.93rem;
     font-weight: bold;
     color: black;
 }
 .a-panier {
     height: 200px;
-    width: 250px;
+    width: 17.36vw;
     background-color: white;
     overflow: hidden;
     box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.04);
     border-radius: 1.2em;
-    margin-right: 30px;
+    margin-right: 1.87rem;
 }
 .a-panier img {
     height: 115px;
-    width: 240px;
-    top: 5px;
-    left: 5px;
-    bottom: 10px;
-    margin-bottom: 10px;
+    width: 16.67vw;
+    top: 0.31rem;
+    left: 0.31rem;
+    bottom: 0.62rem;
+    margin-bottom: 0.62rem;
     object-fit: cover;
     position: relative;
     border-top-left-radius: 1.2em;
@@ -429,33 +428,33 @@ a {
 .a-panier p {
     margin: 0 0 0 1.1em;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 0.87rem;
     color: black;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 0.31rem;
+    padding-bottom: 0.31rem;
 }
 .a-panier span {
     margin: 0 0 0 1.1em;
-    font-size: 14px;
+    font-size: 0.93rem;
     font-weight: bold;
     color: black;
 }
 .h-mouettes {
     height: 200px;
-    width: 250px;
+    width: 17.36vw;
     background-color: white;
     overflow: hidden;
     box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.04);
     border-radius: 1.2em;
-    margin-right: 30px;
+    margin-right: 1.87rem;
 }
 .h-mouettes img {
     height: 115px;
-    width: 240px;
-    top: 5px;
-    left: 5px;
-    bottom: 10px;
-    margin-bottom: 10px;
+    width: 16.67vw;
+    top: 0.31rem;
+    left: 0.31rem;
+    bottom: 0.62rem;
+    margin-bottom: 0.62rem;
     object-fit: cover;
     position: relative;
     border-top-left-radius: 1.2em;
@@ -464,33 +463,33 @@ a {
 .h-mouettes p {
     margin: 0 0 0 1.1em;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 0.87rem;
     color: black;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 0.31rem;
+    padding-bottom: 0.31rem;
 }
 .h-mouettes span {
     margin: 0 0 0 1.1em;
-    font-size: 14px;
+    font-size: 0.93rem;
     font-weight: bold;
     color: black;
 }
 .h-amina {
     height: 200px;
-    width: 250px;
+    width: 17.36vw;
     background-color: white;
     overflow: hidden;
     box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.04);
     border-radius: 1.2em;
-    margin-right: 30px;
+    margin-right: 1.87rem;
 }
 .h-amina img {
     height: 115px;
-    width: 240px;
-    top: 5px;
-    left: 5px;
-    bottom: 10px;
-    margin-bottom: 10px;
+    width: 16.67vw;
+    top: 0.31rem;
+    left: 0.31rem;
+    bottom: 0.62rem;
+    margin-bottom: 0.62rem;
     object-fit: cover;
     position: relative;
     border-top-left-radius: 1.2em;
@@ -499,20 +498,20 @@ a {
 .h-amina p {
     margin: 0 0 0 1.1em;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 0.87rem;
     color: black;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 0.31rem;
+    padding-bottom: 0.31rem;
 }
 .h-amina span {
     margin: 0 0 0 1.1em;
-    font-size: 14px;
+    font-size: 0.93rem;
     font-weight: bold;
     color: black;
 }
 .afficher a {
-    left: 40px;
-    bottom: 35px;
+    left: 2.5rem;
+    bottom: 2.19rem;
     text-decoration: none;
     color: black;
     font-weight: bold;
@@ -526,12 +525,12 @@ strong {
     font-weight: bold;
 }
 #corps-2 {
-    margin-left: 40px;
-    margin-right: 0px;
+    margin-left: 2.5rem;
+    margin-right: 0;
 }
 #popular {
     background-color: #F2F2F2;
-    width: 420px;
+    width: 29.17vw;
     margin: auto;
     border-radius: 1.2em;
     display: flex;
@@ -540,117 +539,117 @@ strong {
     align-content: space-around;
 }
 #popular p {
-    width: 150px;
-    padding-left: 150px;
-    padding-top: 10px;
-    font-size: 14px;
-    margin: 0px;
+    padding-left: 9.37rem;
+    padding-top: 0.62rem;
+    font-size: 0.87rem;
+    margin: 0;
 }
 .top {
     height: 90px;
 }
 .top h3 {
     float: left;
-    width: 320px;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    font-size: 25px;
+    width: 22.2vw;
+    margin-top: 1.87rem;
+    margin-bottom: 1.25rem;
+    font-size: 1.56rem;
     font-weight: bold;
 }
 .top i {
     color: black;
-    font-size: 22px;
-    margin-top: 35px;
-    margin-bottom: 45px;
+    font-size: 1.37rem;
+    margin-top: 2.19rem;
+    margin-bottom: 2.81rem;
 }
 .h-link a {
-    font-size: 16px;
+    font-size: 0.93rem;
     font-weight: bold;
     color: black;
     text-decoration: none;
-    padding-top: 15px;
+    padding-top: 0.93rem;
 }
 .h-link {
-    margin-bottom: 5px;
+    margin-bottom: 0.31rem;
 }
 .h-soleil {
     height: 150px;
-    width: 345px;
+    width: 23.96vw;
     background-color: white;
     overflow: hidden;
     border: 5px solid #FFFFFF;
     box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.04);
     border-radius: 1.2em;
-    margin-bottom: 30px;
+    margin-bottom: 1.87rem;
+    padding-right: 1.56rem;
     background-image: url(images/hebergements/3_medium/H-Soleil.jpg);
-    background-size: contain;
-    background-position: -90px 0;
+    background-size: 130px 9.5rem;
     background-repeat: no-repeat;
 }
 .coeur-eau {
     height: 150px;
-    width: 345px;
+    width: 23.96vw;
     background-color: white;
     overflow: hidden;
     border: 5px solid #FFFFFF;
     box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.04);
     border-radius: 1.2em;
-    margin-bottom: 30px;
+    margin-bottom: 1.87rem;
+    padding-right: 1.56rem;
     background-image: url(images/hebergements/3_medium/Coeur-Eau.jpg);
-    background-size: contain;
-    background-position: -65px 0;
+    background-size: 130px 9.5rem;
     background-repeat: no-repeat;
 }
 .h-blanc {
     height: 150px;
-    width: 345px;
+    width: 23.96vw;
     background-color: white;
     overflow: hidden;
     border: 5px solid #FFFFFF;
     box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.04);
     border-radius: 1.2em;
-    margin-bottom: 30px;
-    background-image: url(images/hebergements/4_small/H-Blanc.jpg);
-    background-size: cover;
-    background-position: -210px -250px;
+    margin-bottom: 1.87rem;
+    padding-right: 1.56rem;
+    background-image: url(images/hebergements/3_medium/H-Blanc.jpg);
+    background-size: 130px auto;
     background-repeat: no-repeat;
 }
 .stars-1 {
+    position: relative;
     margin: 0 0 0 1.1em;
     color: #0065FC;
-    padding-left: 150px;
-    padding-top: 50px;
-    margin: 0;
-    font-size: 11px;
+    padding-left: 8.75rem;
+    padding-top: 3.12rem;
+    font-size: 0.68rem;
 }
 #activity {
     height: 530px;
-    width: 1340px;
+    width: 93.05vw;
     display: flex;
     flex-flow: column wrap;
     justify-content: flex-end;
     align-content: space-between;
     margin: auto;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: bold;
 }
 #activity h3 {
-    font-size: 25px;
+    font-size: 1.56rem;
     display: inline-block;
     font-weight: bold;
-    margin-bottom: 25px;
+    margin-bottom: 1.56rem;
 }
-.v-port {
-    height: 445px;
-    width: 305px;
-    overflow: hidden;
-    box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.04);
-    border-radius: 1.2em;
-}
-.v-port p {
+#activity p {
+    margin-top: 0.31rem;
     margin-left: 1.1em;
     font-weight: bold;
     color: black;
+}
+.v-port {
+    height: 445px;
+    width: 21.18vw;
+    overflow: hidden;
+    box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.04);
+    border-radius: 1.2em;
 }
 .v-port img {
     height: 390px;
@@ -662,20 +661,15 @@ strong {
 }
 .fort-pom {
     height: 240px;
-    width: 305px;
-    margin-bottom: 40px;
+    width: 21.18vw;
+    margin-bottom: 2.5rem;
     overflow: hidden;
     box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.04);
     border-radius: 1.2em;
 }
-.fort-pom p {
-    margin-left: 1.1em;
-    font-weight: bold;
-    color: black;
-}
 .fort-pom img {
     height: 185px;
-    width: 305px;
+    width: 21.18vw;
     position: relative;
     object-fit: cover;
     border-top-left-radius: 1.2em;
@@ -683,20 +677,15 @@ strong {
 }
 .iles-frioul {
     height: 165px;
-    width: 305px;
+    width: 21.18vw;
     overflow:hidden;
     box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.04);
     border-radius: 1.2em;
 }
-.iles-frioul p {
-    margin-left: 1.1em;
-    font-weight: bold;
-    color: black;
-}
 .iles-frioul img {
     height: 110px;
-    width: 305px;
-    left: 0px;
+    width: 21.18vw;
+    left: 0;
     position: relative;
     object-fit: cover;
     border-top-left-radius: 1.2em;
@@ -704,15 +693,10 @@ strong {
 }
 .parc-calan {
     height: 445px;
-    width: 305px;
+    width: 21.18vw;
     overflow:hidden;
     box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.04);
     border-radius: 1.2em;
-}
-.parc-calan p {
-    margin-left: 1.1em;
-    font-weight: bold;
-    color: black;
 }
 .parc-calan img {
     height: 390px;
@@ -724,21 +708,16 @@ strong {
 }
 .notre-dame {
     height: 195px;
-    width: 250px;
-    margin-bottom: 40px;
+    width: 17.36vw;
+    margin-bottom: 2.5rem;
     overflow:hidden;
     box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.04);
     border-radius: 1.2em;
 }
-.notre-dame p {
-    margin-left: 1.1em;
-    font-weight: bold;
-    color: black;
-}
 .notre-dame img {
     height: 140px;
-    width: 250px;
-    left: 0px;
+    width: 17.36vw;
+    left: 0;
     position: relative;
     object-fit: cover;
     border-top-left-radius: 1.2em;
@@ -746,19 +725,14 @@ strong {
 }
 .parc-long {
     height: 210px;
-    width: 250px;
+    width: 17.36vw;
     overflow:hidden;
     box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.04);
     border-radius: 1.2em;
 }
-.parc-long p {
-    margin-left: 1.1em;
-    font-weight: bold;
-    color: black;
-}
 .parc-long img {
     height: 160px;
-    width: 250px;
+    width: 17.36vw;
     position: relative;
     object-fit: cover;
     border-top-left-radius: 1.2em;
@@ -767,9 +741,10 @@ strong {
 #foot {
     display: flex;
     flex-wrap: wrap;
+    width: 100vw;
     justify-content: space-around;
     background-color: #f2f2f2;
-    margin-top: 60px;
+    margin-top: 3.75rem;
 }
 #foot h4 {
     font-size: 1.1em;
@@ -787,10 +762,209 @@ strong {
     body {
         background-color: #edf2fa56;
     }
+    #corps {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+    .h-marseille {
+        width: 100vw;
+        border-radius: 0 0 1.2em 1.2em;
+    }
+    .h-marseille h2 {
+        width: auto;
+    }
+    #heberg-body {
+        height: 550px;
+        width: 61.1vw;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-around;
+        align-content: center;
+        margin: auto auto 2.19rem auto;
+    }
+    .a-canne {
+        height: 250px;
+        width: 26.39vw;
+    }
+    .a-canne img {
+        height: 140px;
+        width: 25.3vw;
+    }
+    .h-mer {
+        height: 250px;
+        width: 26.39vw;
+    }
+    .h-mer img {
+        height: 140px;
+        width: 25.3vw;
+    }
+    .h-port {
+        height: 250px;
+        width: 26.39vw;
+    }
+    .h-port img {
+        height: 140px;
+        width: 25.3vw;
+    }
+    .a-panier {
+        height: 250px;
+        width: 26.39vw;
+    }
+    .a-panier img {
+        height: 140px;
+        width: 25.3vw;
+    }
+    .h-mouettes {
+        height: 250px;
+        width: 26.39vw;
+    }
+    .h-mouettes img {
+        height: 140px;
+        width: 25.3vw;
+    }
+    .h-amina {
+        height: 250px;
+        width: 26.39vw;
+    }
+    .h-amina img {
+        height: 140px;
+        width: 25.3vw;
+    }
+    #corps-2 {
+        width: auto;
+        margin: auto;
+        order: -1;
+    }
+    #popular {
+        width: auto;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        border-radius: 1.2em 1.2em 0 0;
+        border-bottom: 1px solid #F2F2F2;
+    }
+    #popular p {
+        font-size: 0.68rem;
+        padding-left: 6.7rem;
+        padding-top: 0.31rem;
+    }
+    .top {
+        width: 100%;
+    }
+    .top h3 {
+        margin-left: 1.5rem;
+        width: auto;
+    }
+    .top a {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 0.93rem;
+    }
+    .top i {
+        margin-top: 1.56rem;
+        margin-bottom: auto;
+    }
+    .h-link a {
+        font-size: 0.68rem;
+    }
+    .h-soleil {
+        padding-right: 0.16rem;
+        width: 30.5vw;
+        height: 150px;
+        background-size: 100px 150px;
+    }
+    .coeur-eau {
+        padding-right: 0.16rem;
+        width: 30.5vw;
+        height: 150px;
+        background-size: 100px 150px;
+    }
+    .h-blanc {
+        padding-right: 0.16rem;
+        width: 30.5vw;
+        height: 150px;
+        background-size: 100px 150px;
+    }
+    .stars-1 {
+        padding-top: 0.5rem;
+        padding-left: 6.2rem;
+        font-size: 0.5rem;
+    }
+    #activity {
+        height: 360px;
+        width: 100vw;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-content: flex-start;
+        margin: auto;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    #activity h3 {
+        width: 100%;
+        font-size: 1.56rem;
+        display: inline-flex;
+        font-weight: bold;
+        margin-bottom: 1.56rem;
+    }
+    .v-port {
+        height: 145px;
+        width: 30vw;
+    }
+    .v-port img {
+        height: 100px;
+        width: 65vw;
+    }
+    .fort-pom {
+        height: 145px;
+        width: 30vw;
+    }
+    .fort-pom img {
+        height: 100px;
+        width: 65vw;
+    }
+    .iles-frioul {
+        height: 145px;
+        width: 30vw;
+    }
+    .iles-frioul img {
+        height: 100px;
+        width: 65vw;
+    }
+    .parc-calan {
+        height: 145px;
+        width: 30vw;
+    }
+    .parc-calan img {
+        height: 100px;
+        width: 65vw;
+    }
+    .notre-dame {
+        height: 145px;
+        width: 30vw;
+    }
+    .notre-dame img {
+        height: 100px;
+        width: 65vw;
+    }
+    .parc-long {
+        height: 145px;
+        width: 30vw;
+    }
+    .parc-long img {
+        height: 100px;
+        width: 65vw;
+    }
 }
 @media screen and (max-width: 480px) {
     body {
-        width: 375px;
+        width: auto;
+        margin: auto;
     }
     #tete {
         display: flex;
@@ -975,7 +1149,7 @@ strong {
         overflow: hidden;
         box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.04);
         border-radius: 1.2em;
-        margin-bottom: 15px;
+        margin: 15px auto auto auto;
         order: 1;
     }
     .a-canne img {
@@ -1010,7 +1184,7 @@ strong {
         overflow: hidden;
         box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.04);
         border-radius: 1.2em;
-        margin-bottom: 15px;
+        margin: 15px auto auto auto;
         order: 4;
     }
     .h-mer img {
@@ -1045,8 +1219,7 @@ strong {
         overflow: hidden;
         box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.04);
         border-radius: 1.2em;
-        margin-bottom: 15px;
-        margin-left: auto;
+        margin: 15px auto auto auto;
         order: 2;
     }
     .h-port img {
@@ -1081,8 +1254,7 @@ strong {
         overflow: hidden;
         box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.04);
         border-radius: 1.2em;
-        margin-bottom: 15px;
-        margin-left: auto;
+        margin: 15px auto auto auto;
         order: 5;
     }
     .a-panier img {
@@ -1117,8 +1289,7 @@ strong {
         overflow: hidden;
         box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.04);
         border-radius: 1.2em;
-        margin-bottom: 15px;
-        margin-left: auto;
+        margin: 15px auto auto auto;
         order: 3;
     }
     .h-mouettes img {
@@ -1153,8 +1324,7 @@ strong {
         overflow: hidden;
         box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.04);
         border-radius: 1.2em;
-        margin-bottom: 15px;
-        margin-left: auto;
+        margin: 15px auto auto auto;
         order: 6;
     }
     .h-amina img {
@@ -1214,19 +1384,19 @@ strong {
     }
     .top i {
         margin-top: 45px;
-        margin-right: 10px;
+        margin-right: 0;
     }
     .h-soleil {
         width: 335px;
-        margin: 0 0 15px 5px;
+        margin: 0 0 15px 0;
     }
     .coeur-eau {
         width: 335px;
-        margin: 0 0 15px 5px;
+        margin: 0 0 15px 0;
     }
     .h-blanc {
         width: 345px;
-        margin: 0 0 15px 5px;
+        margin: 0 0 15px 0;
     }
     #activity {
         height: auto;
@@ -1235,12 +1405,13 @@ strong {
         flex-flow: column wrap;
         justify-content: space-around;
         align-content: center;
-        margin: 0;
+        margin: auto;
     }
     #activity h3 {
         display: inline-block;
         font-weight: bold;
         margin: 100px 0 30px 0;
+        padding-left: 40px;
     }
     .v-port {
         height: 190px;
@@ -1248,6 +1419,7 @@ strong {
         overflow: hidden;
         box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.04);
         border-radius: 1.2em;
+        align-self: center;
         margin-bottom: 20px;
     }
     .v-port img {
@@ -1262,10 +1434,10 @@ strong {
     .fort-pom {
         height: 190px;
         width: 335px;
-        margin-bottom: 50px;
         overflow: hidden;
         box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.04);
         border-radius: 1.2em;
+        align-self: center;
         margin-bottom: 20px;
     }
     .fort-pom img {
@@ -1282,6 +1454,7 @@ strong {
         overflow:hidden;
         box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.04);
         border-radius: 1.2em;
+        align-self: center;
         margin-bottom: 20px;
     }
     .iles-frioul img{
@@ -1299,6 +1472,7 @@ strong {
         overflow:hidden;
         box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.04);
         border-radius: 1.2em;
+        align-self: center;
         margin-bottom: 20px;
     }
     .parc-calan img {
@@ -1317,6 +1491,7 @@ strong {
         overflow:hidden;
         box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.04);
         border-radius: 1.2em;
+        align-self: center;
         margin-bottom: 20px;
     }
     .notre-dame img {
@@ -1334,6 +1509,7 @@ strong {
         overflow:hidden;
         box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.04);
         border-radius: 1.2em;
+        align-self: center;
         margin-bottom: 50px;
     }
     .parc-long img {
@@ -1345,6 +1521,7 @@ strong {
         border-top-right-radius: 1.2em;
     }
     #foot {
+        width: auto;
         display: flex;
         flex-flow: column wrap;
         justify-content: flex-start;
