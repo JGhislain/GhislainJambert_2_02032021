@@ -959,34 +959,34 @@ strong {
 }
 @media screen and (max-width: 768px) {
     body {
-        width: 375px;
+        width: 100vw;
     }
     #tete {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         flex-wrap: wrap-reverse;
         justify-content: flex-end;
         align-items: center;
-        height: 100px;
+        height: auto;
         margin-right: 0;
     }
     .heberg {
         width: 49%;
-        top: 15px;
+        top: 0.94rem;
         text-align: center;
-        padding-top: 20px;
+        padding-top: 1.25rem;
         margin: 0;
         text-decoration: none;
         color: black;
         border-bottom: solid 1px #F2F2F2;
-        order: 3;
+        order: 1;
         left: 0.15rem;
     }
     .activites {
         width: 49%;
-        top: 15px;
+        top: 0.94rem;
         text-align: center;
-        padding-top: 20px;
+        padding-top: 1.25rem;
         margin: 0;
         text-decoration: none;
         color: black;
@@ -995,14 +995,14 @@ strong {
         right: 0.15rem;
     }
     .inscription {
-        padding-top: 20px;
-        padding-left: 100px;
+        padding-top: 1.25rem;
+        padding-right: 1rem;
         margin: 0;
         text-decoration: none;
         color: #0065FC;
         font-weight: bold;
         border-bottom: solid 1px transparent;
-        order: 1;
+        order: 3;
         align-self: flex-end;
     }
     .heberg:hover {
@@ -1027,28 +1027,27 @@ strong {
     }
     #logo {
         position: relative;
-        bottom: 75px;
-        left: 10px;
-        height: 40px;
+        bottom: 4.69rem;
+        left: 0.625rem;
+        height: 2.5rem;
     }
     h1 {
-        margin-top: 50px;
-        margin-bottom: 20px;
-        padding-left: 10px;
+        margin-top: auto;
+        margin-bottom: 1.25rem;
+        padding-left: 0.62rem;
         font-weight: bold;
-        font-size: 25px;
+        font-size: 1.56rem;
     }
     .soustitre {
-        margin-top: 0px;
-        margin-bottom: 30px;
-        padding-left: 10px;
+        margin-top: 0;
+        margin-bottom: 1.87rem;
+        padding-left: 0.62rem;
     }
     #bouton {
         display: none;
     }
     form {
         margin: auto;
-        padding-right: 1.87rem;
     }
     .xlhidden {
         display: flex !important;
@@ -1056,14 +1055,23 @@ strong {
         align-items: center;
         background-color: #0065FC !important;
         color: white;
-        border-radius: 15px 15px 15px 15px;
+        border-radius: 0.94rem;
         border-width: 0;
-        margin-left: -12px;
-        width: 50px;
+        margin-left: -0.75rem;
+        width: 3.15rem;
     }
     fieldset {
         margin: auto;
         padding: 0;
+    }
+    #search {
+        width: 61.3vw;
+    }
+    .icone {
+        width: 13.3vw;
+    }
+    #search-block {
+        height: 50px;
     }
     .filter-bloc {
         margin-left: 0;
@@ -1074,49 +1082,58 @@ strong {
         justify-content: flex-start;
         font-size: 1rem;
         font-weight: bold;
-        width: 350px;
-        margin: auto;
+        max-width: 320px;
+        margin-left: 1rem;
     }
     .filtres {
-        padding: 0;
+        margin-right: 0;
+        margin-top: 2.2rem;
         width: 100%;
     }
     .eco {
         width: 150px;
         margin-left: 0;
-        margin-top: 10px;
+        margin-top: 0.62rem;
     }
     .family {
         width: 100px;
         align-self: baseline;
-        margin-top: 10px;
+        margin-top: 0.62rem;
     }
     .romance {
         width: 140px;
+        margin-bottom: auto;
+    }
+    .animals {
+        margin-bottom: auto;
+        margin-top: 0.68rem;
     }
     #bulle {
-        width: 330px;
-        padding-left: 1rem;
+        width: 88vw;
+        position: sticky;
+        left: 1rem;
+        margin-top: 2.2rem;
+        margin-bottom: 2.2rem;
     }
     #bulle a {
         display: inline-block;
         position: absolute;
-        width: 320px;
+        width: 85.3vw;
     }
     #corps {
-        height: 2000px;
-        width: 375px;
+        height: auto;
+        width: 100vw;
         display: flex;
         flex-direction: column;
         justify-content: center;
         margin: auto;
     }
     #inf {
-        margin-right: 10px;
+        margin-right: 0.62rem;
     }
     .h-marseille {
         height: auto;
-        width: 375px;
+        width: 100vw;
         display: flex;
         flex-flow: column wrap;
         justify-content: space-around;
@@ -1127,29 +1144,29 @@ strong {
     #heberg-body {
         margin: auto;
         height: auto;
-        width: 375px;
+        width: 100vw;
     }
     .h-marseille h2 {
         display: inline-block;
         height: auto;
         width: auto;
-        font-size: 25px;
+        font-size: 1.56rem;
         font-weight: bold;
-        margin: 40px 0 20px 20px;
+        margin: 2.5rem 0 1.25rem 1.25rem;
     }
     .a-canne {
-        height: 200px;
-        width: 335px;
+        height: 53.3vw;
+        width: 89.3vw;
         background-color: white;
         overflow: hidden;
         box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.04);
         border-radius: 1.2em;
-        margin-bottom: 15px;
+        margin-bottom: 0.94rem;
         order: 1;
     }
     .a-canne img {
-        height: 115px;
-        width: 325px;
+        height: 30.6vw;
+        width: 86.6vw;
         top: 5px;
         left: 5px;
         bottom: 10px;
@@ -1162,29 +1179,29 @@ strong {
     .a-canne p {
         margin: 0 0 0 1.1em;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 0.87rem;
         color: black;
-        padding: 4px 0;
+        padding: 0.25rem 0;
     }
     .a-canne span {
         margin: auto auto auto 1.1em;
         font-weight: bold;
-        font-size: 14px;
+        font-size: 0.87rem;
         color: black;
     }
     .h-mer {
-        height: 200px;
-        width: 335px;
+        height: 53.3vw;
+        width: 89.3vw;
         background-color: white;
         overflow: hidden;
         box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.04);
         border-radius: 1.2em;
-        margin-bottom: 15px;
+        margin-bottom: 0.94rem;
         order: 4;
     }
     .h-mer img {
-        height: 115px;
-        width: 325px;
+        height: 30.6vw;
+        width: 86.6vw;
         top: 5px;
         left: 5px;
         bottom: 10px;
@@ -1197,30 +1214,30 @@ strong {
     .h-mer p {
         margin: 0 0 0 1.1em;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 0.87rem;
         color: black;
-        padding: 4px 0;
+        padding: 0.25rem 0;
     }
     .h-mer span {
         margin: 0 0 0 1.1em;
         font-weight: bold;
-        font-size: 14px;
+        font-size: 0.87rem;
         color: black;
     }
     .h-port {
-        height: 200px;
-        width: 335px;
+        height: 53.3vw;
+        width: 89.3vw;
         background-color: white;
         overflow: hidden;
         box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.04);
         border-radius: 1.2em;
-        margin-bottom: 15px;
+        margin-bottom: 0.94rem;
         margin-left: auto;
         order: 2;
     }
     .h-port img {
-        height: 115px;
-        width: 325px;
+        height: 30.6vw;
+        width: 86.6vw;
         top: 5px;
         left: 5px;
         bottom: 10px;
@@ -1233,30 +1250,30 @@ strong {
     .h-port p {
         margin: 0 0 0 1.1em;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 0.87rem;
         color: black;
-        padding: 4px 0;
+        padding: 0.25rem 0;
     }
     .h-port span {
         margin: 0 0 0 1.1em;
         font-weight: bold;
-        font-size: 14px;
+        font-size: 0.87rem;
         color: black;
     }
     .a-panier {
-        height: 200px;
-        width: 335px;
+        height: 53.3vw;
+        width: 89.3vw;
         background-color: white;
         overflow: hidden;
         box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.04);
         border-radius: 1.2em;
-        margin-bottom: 15px;
+        margin-bottom: 0.94rem;
         margin-left: auto;
         order: 5;
     }
     .a-panier img {
-        height: 115px;
-        width: 325px;
+        height: 30.6vw;
+        width: 86.6vw;
         top: 5px;
         left: 5px;
         bottom: 10px;
@@ -1269,30 +1286,30 @@ strong {
     .a-panier p {
         margin: 0 0 0 1.1em;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 0.87rem;
         color: black;
-        padding: 4px 0;
+        padding: 0.25rem 0;
     }
     .a-panier span {
         margin: 0 0 0 1.1em;
         font-weight: bold;
-        font-size: 14px;
+        font-size: 0.87rem;
         color: black;
     }
     .h-mouettes {
-        height: 200px;
-        width: 335px;
+        height: 53.3vw;
+        width: 89.3vw;
         background-color: white;
         overflow: hidden;
         box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.04);
         border-radius: 1.2em;
-        margin-bottom: 15px;
+        margin-bottom: 0.94rem;
         margin-left: auto;
         order: 3;
     }
     .h-mouettes img {
-        height: 115px;
-        width: 325px;
+        height: 30.6vw;
+        width: 86.6vw;
         top: 5px;
         left: 5px;
         bottom: 10px;
@@ -1305,30 +1322,30 @@ strong {
     .h-mouettes p {
         margin: 0 0 0 1.1em;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 0.87rem;
         color: black;
-        padding: 4px 0;
+        padding: 0.25rem 0;
     }
     .h-mouettes span {
         margin: 0 0 0 1.1em;
         font-weight: bold;
-        font-size: 14px;
+        font-size: 0.87rem;
         color: black;
     }
     .h-amina {
-        height: 200px;
-        width: 335px;
+        height: 53.3vw;
+        width: 89.3vw;
         background-color: white;
         overflow: hidden;
         box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.04);
         border-radius: 1.2em;
-        margin-bottom: 15px;
+        margin-bottom: 0.94rem;
         margin-left: auto;
         order: 6;
     }
     .h-amina img {
-        height: 115px;
-        width: 325px;
+        height: 30.6vw;
+        width: 86.6vw;
         top: 5px;
         left: 5px;
         bottom: 10px;
@@ -1341,37 +1358,36 @@ strong {
     .h-amina p {
         margin: 0 0 0 1.1em;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 0.87rem;
         color: black;
-        padding: 4px 0;
+        padding: 0.25rem 0;
     }
     .h-amina span {
         margin: 0 0 0 1.1em;
         font-weight: bold;
-        font-size: 14px;
+        font-size: 0.87rem;
         color: black;
     }
     .afficher {
         display: inline-block;
-        margin-top: 30px;
+        margin-top: 1.87rem;
     }
     .afficher a {
-        left: 30px;
+        left: 1.87rem;
         bottom: 0;
-        top: 0px;
+        top: 0;
     }
     .stars {
-        font-size: 10px;
-        margin: 5px 0px 10px 15px;
+        font-size: 0.62rem;
+        margin: 0.31rem 0px 0.62rem 0.94rem;
     }
     #corps-2 {
         margin: auto;
         order: -1;
     }
     #popular {
-        width: 375px;
+        width: 100vw;
         border-radius: 0;
-        margin: 50px auto auto auto;
     }
     #popular p {
         padding-left: 9.37rem;
@@ -1379,17 +1395,12 @@ strong {
         font-size: 0.87rem;
         margin: 0;
     }
-    .top {
-        height: 90px;
-    }
     .top h3 {
-        font-size: 25px;
-        width: 305px;
-        margin: 40px 0 0 10px;
+        font-size: 1.56rem;
     }
     .top i {
-        margin-top: 45px;
-        margin-right: 10px;
+        font-size: 1.56rem;
+        margin-top: 2rem;
     }
     .stars-1 {
         position: relative;
@@ -1401,21 +1412,21 @@ strong {
     }
     .h-soleil {
         height: 150px;
-        width: 335px;
-        margin: 0 0 15px 5px;
-        background-size: 130px 9.5rem;
+        width: 89.3vw;
+        margin: 0 0 0.94rem 0.31rem;
+        background-size: 130px 150px;
     }
     .coeur-eau {
         height: 150px;
-        width: 335px;
-        margin: 0 0 15px 5px;
-        background-size: 130px 9.5rem;
+        width: 89.3vw;
+        margin: 0 0 0.94rem 0.31rem;
+        background-size: 130px 150px;
     }
     .h-blanc {
         height: 150px;
-        width: 335px;
-        margin: 0 0 15px 5px;
-        background-size: 130px 9.5rem;
+        width: 89.3vw;
+        margin: 0 0 0.94rem 0.31rem;
+        background-size: 130px 150px;
     }
     #activity {
         height: auto;
@@ -1427,19 +1438,19 @@ strong {
         width: auto;
         display: inline-block;
         font-weight: bold;
-        margin: 100px 0 30px 0;
+        margin: 6.25rem 0 1.88rem 0;
     }
     .v-port {
-        height: 190px;
-        width: 335px;
+        height: 50.6vw;
+        width: 89.3vw;
         overflow: hidden;
-        box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.04);
+        box-shadow: 0 0 0.12rem 0.12rem rgba(0,0,0,0.04);
         border-radius: 1.2em;
-        margin-bottom: 20px;
+        margin-bottom: 1.25rem;
     }
     .v-port img {
-        height: 130px;
-        width: 335px;
+        height: 34.6vw;
+        width: 89.3vw;
         left: 0px;
         position: relative;
         object-fit: cover;
@@ -1447,33 +1458,32 @@ strong {
         border-top-right-radius: 1.2em;
     }
     .fort-pom {
-        height: 190px;
-        width: 335px;
-        margin-bottom: 50px;
+        height: 50.6vw;
+        width: 89.3vw;
         overflow: hidden;
-        box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.04);
+        box-shadow: 0 0 0.12rem 0.12rem rgba(0,0,0,0.04);
         border-radius: 1.2em;
-        margin-bottom: 20px;
+        margin-bottom: 1.25rem;
     }
     .fort-pom img {
-        height: 130px;
-        width: 335px;
+        height: 34.6vw;
+        width: 89.3vw;
         position: relative;
         object-fit: cover;
         border-top-left-radius: 1.2em;
         border-top-right-radius: 1.2em;
     }
     .iles-frioul {
-        height: 190px;
-        width: 335px;
-        overflow:hidden;
-        box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.04);
+        height: 50.6vw;
+        width: 89.3vw;
+        overflow: hidden;
+        box-shadow: 0 0 0.12rem 0.12rem rgba(0,0,0,0.04);
         border-radius: 1.2em;
-        margin-bottom: 20px;
+        margin-bottom: 1.25rem;
     }
     .iles-frioul img{
-        height: 130px;
-        width: 335px;
+        height: 34.6vw;
+        width: 89.3vw;
         left: 0px;
         position: relative;
         object-fit: cover;
@@ -1481,16 +1491,16 @@ strong {
         border-top-right-radius: 1.2em;
     }
     .parc-calan {
-        height: 190px;
-        width: 335px;
-        overflow:hidden;
-        box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.04);
+        height: 50.6vw;
+        width: 89.3vw;
+        overflow: hidden;
+        box-shadow: 0 0 0.12rem 0.12rem rgba(0,0,0,0.04);
         border-radius: 1.2em;
-        margin-bottom: 20px;
+        margin-bottom: 1.25rem;
     }
     .parc-calan img {
-        height: 130px;
-        width: 335px;
+        height: 34.6vw;
+        width: 89.3vw;
         left: 0px;
         position: relative;
         object-fit: cover;
@@ -1498,17 +1508,16 @@ strong {
         border-top-right-radius: 1.2em;
     }
     .notre-dame {
-        height: 190px;
-        width: 335px;
-        margin-bottom: 0;
-        overflow:hidden;
-        box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.04);
+        height: 50.6vw;
+        width: 89.3vw;
+        overflow: hidden;
+        box-shadow: 0 0 0.12rem 0.12rem rgba(0,0,0,0.04);
         border-radius: 1.2em;
-        margin-bottom: 20px;
+        margin-bottom: 1.25rem;
     }
     .notre-dame img {
-        height: 130px;
-        width: 335px;
+        height: 34.6vw;
+        width: 89.3vw;
         left: 0px;
         position: relative;
         object-fit: cover;
@@ -1516,16 +1525,16 @@ strong {
         border-top-right-radius: 1.2em;
     }
     .parc-long {
-        height: 190px;
-        width: 335px;
-        overflow:hidden;
-        box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.04);
+        height: 50.6vw;
+        width: 89.3vw;
+        overflow: hidden;
+        box-shadow: 0 0 0.12rem 0.12rem rgba(0,0,0,0.04);
         border-radius: 1.2em;
-        margin-bottom: 50px;
+        margin-bottom: 3.12rem;
     }
     .parc-long img {
-        height: 130px;
-        width: 335px;
+        height: 34.6vw;
+        width: 89.3vw;
         position: relative;
         object-fit: cover;
         border-top-left-radius: 1.2em;
@@ -1540,12 +1549,12 @@ strong {
         margin-top: 0;
     }
     .propos {
-        margin-left: 30px;
+        margin-left: 1.87rem;
     }
     .heberg-foot {
-        margin-left: 30px;
+        margin-left: 1.87rem;
     }
     .assist {
-        margin-left: 30px;
+        margin-left: 1.87rem;
     }
 }
